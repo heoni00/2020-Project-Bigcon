@@ -1,0 +1,48 @@
+BA
+HH 2,0,2<br>
+HT 1,0,2<br>
+KT 2,1,0<br>
+LG 2,0,0<br>
+LT 2,0,4<br>
+NC 1,0,0<br>
+OB 1,0,4<br>
+SK 2,1,0<br>
+SS 0,2,1<br>
+WO 0,1,0<br>
+
+
+WLS
+HH 302
+HT 010
+KT 010
+LG 102
+LT 103
+NC 010
+OB 411
+SK 010
+SS 010
+WO 100
+
+ER
+HH 201
+HT 112
+KT 010
+LG 102
+LT 100
+NC 210
+OB 211
+SK 011
+SS 010
+WO 101
+
+# 잔여경기수
+HH 10
+HT 12
+KT 9
+LG 7
+LT 9
+NC 7
+OB 12
+SK 9
+SS 11
+WO 9
