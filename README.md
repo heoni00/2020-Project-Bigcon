@@ -1,7 +1,8 @@
 ## 2020 KBO 퓨처스리그 예측 모델 개발 
 ### 시계열 분석을 이용한 팀별 승률, 타율 및 방어율 예측 (with ARIMA)
 
-2020 빅콘테스트 데이터분석분야 KBO 퓨처스리그 NOVUS팀 분석 프로젝트입니다. 2020.09 ~ 2020.10, 약 2달간 프로젝트를 진행했습니다. 
+2020 빅콘테스트 데이터분석분야 KBO 퓨처스리그 NOVUS팀 분석 프로젝트입니다.   
+2020.09 ~ 2020.10, 약 2달간 프로젝트를 진행했습니다. 
 
 #### 참가 팀원 
 
@@ -50,7 +51,7 @@
 - R tseries 패키지 auto.arima 이용하여 ARIMA 차수 산출
 - ARIMA 차수 (0,1,0)가 나온다면 정상성을 유지하기 위해 모델을 조정하여 가장 aic값이 작은 차수를 구하여 재적용
 
-<img width="899" alt="image" src="https://user-images.githubusercontent.com/67791317/198837403-991b9b24-96bb-4e96-a7ab-fc9d7f29686f.png">
+![image](https://user-images.githubusercontent.com/67791317/198844406-9ca80eb6-15ae-4ac2-9d08-3bcce27d3df3.png)
 
 - 산출된 ARIMA 차수를 python ARIMA 모델에 투입하여 최종 예측값 출력 및 시각화
 
@@ -71,7 +72,7 @@
 
 5. 분석 결과 
 
-- [전체 분석 결과]()
+- [전체 분석 결과](https://github.com/heoni00/2020-Project-Bigcon/tree/main/Presentation#%EC%B5%9C%EC%A2%85-%EC%98%88%EC%B8%A1-%EA%B2%B0%EA%B3%BC)
 - 예시
 
 ![슬라이드22](https://user-images.githubusercontent.com/67791317/198838000-5c7b939f-8f77-46c9-8f1a-c626848cc9bb.jpeg)
@@ -94,3 +95,12 @@ pandas: 데이터 프레임을 인식하고 전처리를 위해 사용함.
 numpy: 누락값을 읽기 위해 사용함.  
 statsmodels: ARIMA모델을 사용하기 위해 사용함.  
 matplot: 시각화를 위해 사용함.  
+
+#### 레퍼런스
+
+- “자기회귀이동평균(ARIMA) 모형”, 2020. 09.26 접속, Soft carpentry,  https://statkclee.github.io/statistics/stat-time-series-arma.html
+- “ARIMA 총정리”, Challenge의 네이버 블로그, 2020.09.19 접속, 출처 https://blog.naver.com/nywoo19/221600142327
+- “KBO리그 기록 및 순위＂ NAVER SPORTS 야구 기록/순위, https://sports.news.naver.com/kbaseball/record/index.nhn?category=kbo
+- 제출자료 폰트: 나눔스퀘어, 네이버 한글한글 아름답게 
+
+
